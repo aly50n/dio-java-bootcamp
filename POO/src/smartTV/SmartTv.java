@@ -32,8 +32,34 @@ public class SmartTv {
         }
     }
 
+    public void diminuirCanal(int canal){
+        if(canal == 1){
+            this.canal = 100; //canal máximo == 100, ao diminuir vai rotar para o maior canal.
+        }
+        else{
+            this.canal--;
+        }
+    }
+
+    public void aumentarCanal(int canal){
+        if(canal == 100){
+            this.canal = 1; //canal máximo == 100, ao aumentar vai rotar para o menor canal.
+        }
+        else{
+            this.canal++;
+        }
+    }
+
     public void setCanal(int canal){
-        this.canal = canal;
+        if(canal > 100){
+            this.canal = 100; //canal maximo == 100.
+        }
+        else if(canal < 1) {
+            this.canal = 1; //canal minimo == 1.
+        }
+        else{
+            this.canal = canal;
+        }    
     }
 
     public boolean getEstadoTV(){
