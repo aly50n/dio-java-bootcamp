@@ -10,7 +10,7 @@ public class Operadores {
             int auxiliar;
             do {
                 System.out.println("=============================================");
-                System.out.print("1-Adição\n2-Subtração\n3-Multiplicação\n4-Divisão\n5-Módulo\n6-Sair\nSelecione uma operação: ");
+                System.out.print("1-Adição\n2-Subtração\n3-Multiplicação\n4-Divisão\n5-Módulo\n6-Sair\nSelecione uma opção: ");
                 System.out.println("\n=============================================");
                 auxiliar = input.nextInt();
                 switch (auxiliar) {
