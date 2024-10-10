@@ -35,6 +35,7 @@ Com base no vídeo de lançamento do iPhone de 2007 ([link abaixo](https://www.y
 
 ### Objetivo
 - Criar um diagrama UML que represente as funcionalidades descritas acima.
+- ![Diagrama UML](https://raw.githubusercontent.com/aly50n/dio-java-basico/main/projeto-iphone/UML%20-%20Diagramas%20de%20classes.png)
 - Implementar as classes e interfaces correspondentes em Java (Opcional).
 
 ### Instruções
