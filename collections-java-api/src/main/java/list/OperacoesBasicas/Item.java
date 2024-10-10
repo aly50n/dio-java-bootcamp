@@ -34,4 +34,9 @@ public class Item {
     public void setQuantidade(int quantidade) {
         this.quantidade = quantidade;
     }
+
+    @Override
+    public String toString() {
+        return "Item nome: "+this.getNome()+" Preco: "+this.getPreco()+" Quantidade: "+getQuantidade();
+    }
 }
