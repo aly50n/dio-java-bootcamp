@@ -1,4 +1,4 @@
-package main.java.set.Ordenacao;
+package main.java.set.Pesquisa;
 
 public class Contato {
     private String nome;
