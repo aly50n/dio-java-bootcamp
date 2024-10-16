@@ -7,7 +7,7 @@ public class ContagemPalavras {
     private Map<String,Integer> contagemPalavras;
 
     public ContagemPalavras(){
-        this.contagemPalavras = new HashMap();
+        this.contagemPalavras = new HashMap<>();
     }
 
     public void adicionarPalavra(String palavra, Integer contagem){
