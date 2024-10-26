@@ -1,2 +1,2 @@
 # dio-java-bootcamp
-Repositorio para armazenar todo o codigo do curso de Java do bootcamp da DIO, onde vamos da lógica de programação, Collections, POO, à utilização de frameworks + Banco de dados + deploy do projeto.
+Repositório para armazenar todo o código do curso de Java do bootcamp da DIO. Abrange desde fundamentos de lógica de programação e Collections até Programação Orientada a Objetos (POO), incluindo o uso de frameworks, integração com banco de dados e deploy de projetos.
