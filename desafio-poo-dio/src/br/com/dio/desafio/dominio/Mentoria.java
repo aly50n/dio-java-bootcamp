@@ -2,11 +2,20 @@ package br.com.dio.desafio.dominio;
 
 import java.time.LocalDate;
 
-import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
 
-@Data
-public class Mentoria {
+@Getter
+@Setter
+@ToString
+public class Mentoria extends Conteudo {
     String titulo;
     String descricao;
     LocalDate data;
+
+    @Override
+    public double calcularXp() {
+        return XP_PADRAO + 20d;
+    }
 }
