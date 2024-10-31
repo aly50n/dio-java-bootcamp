@@ -17,4 +17,12 @@ public class Bootcamp {
     private Set<Dev> devsInscritos = new HashSet<>();
     private Set<Conteudo> conteudos = new LinkedHashSet<>();
 
+    public void adicionarConteudo(Conteudo conteudo){
+        this.conteudos.add(conteudo);
+    }
+
+    public void adicionarDevsInscritos(Dev dev){
+        this.devsInscritos.add(dev);
+    }
+
 }
