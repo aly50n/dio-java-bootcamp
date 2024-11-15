@@ -1,12 +1,16 @@
-package dio.bootcamp.gof.Controller;
+package dio.bootcamp.gof.Api.cliente.controller;
+
+import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import dio.bootcamp.gof.model.Cliente;
-import dio.bootcamp.gof.service.ClienteService;
+import dio.bootcamp.gof.Api.cliente.dto.ClienteRequest;
+import dio.bootcamp.gof.Api.cliente.dto.ClienteResponse;
+import dio.bootcamp.gof.Api.cliente.service.ClienteService;
+import dio.bootcamp.gof.core.model.Cliente;
 
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -32,7 +36,7 @@ public class ClientRestController {
     private ClienteService clienteService;
     
     @GetMapping
-    public ResponseEntity<Iterable<Cliente>> buscarTodos(){
+    public ResponseEntity<List<ClienteResponse>> buscarTodos(){
         return ResponseEntity.ok(clienteService.buscarTodos());
     }
     
@@ -42,13 +46,13 @@ public class ClientRestController {
     }
 
     @PostMapping
-    public ResponseEntity<Cliente> inserir(@RequestBody Cliente cliente) {
+    public ResponseEntity<ClienteRequest> inserir(@RequestBody ClienteRequest cliente) {
         clienteService.inserir(cliente);
         return ResponseEntity.ok(cliente);
     }
     
     @PutMapping("/{id}")
-    public ResponseEntity<Cliente> atualizar(@PathVariable Long id, @RequestBody Cliente cliente) {
+    public ResponseEntity<ClienteRequest> atualizar(@PathVariable Long id, @RequestBody ClienteRequest cliente) {
         clienteService.atualizar(id, cliente);
         return ResponseEntity.ok(cliente);
     }

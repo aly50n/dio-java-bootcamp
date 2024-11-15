@@ -1,10 +1,10 @@
-package dio.bootcamp.gof.service;
+package dio.bootcamp.gof.Api.cliente.service;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-import dio.bootcamp.gof.model.Endereco;
+import dio.bootcamp.gof.core.model.Endereco;
 
 /** 
  * Cliente HTTP, criado via <b>OpenFeign</b>, para o consumo da API do
