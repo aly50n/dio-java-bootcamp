@@ -1,4 +1,4 @@
-Neste projeto implementei um sistema utilizando padrões de projeto como `Strategy, Facade e Singleton`, integrados à arquitetura MVC para organizar responsabilidades. 
+Neste projeto implementei uma APIrest utilizando padrões de projeto como `Strategy, Facade e Singleton`, integrados à arquitetura MVC para organizar responsabilidades. 
 Para melhorar a manipulação de dados, adotei DTOs e Mappers, simplificando a transferência de informações entre camadas. Consumi a API do ViaCep, facilitando sua 
 integração por meio da biblioteca OpenFeign, uma dependência do Spring Boot.
 
