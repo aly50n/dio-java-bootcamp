@@ -1,4 +1,4 @@
-package dio.bootcamp.gof.Singleton;
+package dio.bootcamp.gof.singleton;
 
 /* Singleton "apressado" */
 
