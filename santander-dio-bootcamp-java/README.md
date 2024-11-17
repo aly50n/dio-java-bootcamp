@@ -1,6 +1,6 @@
-# Santander Dev Week 2023
+# Bootcamp Santander Java com SpringBoot
 
-Java RESTful API criada para a Santander Dev Week.
+Java RESTful API durante o curso do Bootcamp de Java com springboot da Dio em parceria com o Santander.
 
 ## Principais Tecnologias
  - **Java 17**: Utilizaremos a versão LTS mais recente do Java para tirar vantagem das últimas inovações que essa linguagem robusta e amplamente utilizada oferece;
