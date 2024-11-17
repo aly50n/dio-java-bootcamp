@@ -1,1 +1,1 @@
-web: java -jar target/santander-dio-bootcamp-java-0.0.1-SNAPSHOT.jar
+web: mvn clean install -Pprd && java -jar target/santander-dio-bootcamp-java-0.0.1-SNAPSHOT.jar
